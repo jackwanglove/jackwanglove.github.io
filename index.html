@@ -27,7 +27,7 @@
          <li><a href="index.html">首页</a></li>
          <li><a href="about.html">关于我</a></li>
          <li><a href="shuo.html">碎言碎语</a></li>
-         <li><a href="riji.html">个人日记</a></li>
+         <li><a href="riji.html">心情随笔</a></li>
          <li><a href="xc.html">相册展示</a></li>
          <li><a href="learn.html">学无止境</a></li>
          <li><a href="guestbook.html">留言板</a></li>
@@ -45,13 +45,13 @@
           <div class="content_text">
            <!--wz-->
            <div class="wz">
-            <h3><a href="#" title="浅谈：html5和html的区别">浅谈：html5和html的区别</a></h3>
+            <h3><a href="#" title="浅谈：html5和html的区别">JavaEE 三层架构的浅谈</a></h3>
              <dl>
                <dt><img src="images/s.jpg" width="200"  height="123" alt=""></dt>
                <dd>
-                 <p class="dd_text_1">最近看群里聊天聊得最火热的莫过于手机网站和html5这两个词。可能有人会问，这两者有什么关系呢？随着这移动互联
-                 网快速发展的时代，尤其是4G时代已经来临的时刻，加上微软对"XP系统"不提供更新补丁、维护的情况下。
-               html5+css3也逐渐的成为新一代web前端技术.....</p>
+                 <p class="dd_text_1">1、表现层（UI）：通俗讲就是展现给用户的界面，即用户在使用一个系统的时候他的所见所得。
+                                      2、业务逻辑层（BLL）：针对具体问题的操作，也可以说是对数据层的操作，对数据业务逻辑处理。
+                                    3、数据访问层（DAL）：该层所做事务直接操作数据库，针对数据的增添、删除、修改、查找等。</p>
                <p class="dd_text_2">
                <span class="left author">Jack</span><span class="left sj">时间:2014-8-9</span>
                <span class="left fl">分类:<a href="#" title="学无止境">学无止境</a></span><span class="left yd"><a href="#" title="阅读全文">阅读全文</a>
@@ -105,13 +105,22 @@
            <!--wz end-->
            <!--wz-->
            <div class="wz">
-            <h3><a href="#" title="浅谈：html5和html的区别">浅谈：html5和html的区别</a></h3>
+            <h3><a href="#" title="浅谈：html5和html的区别">struts2原理</a></h3>
              <dl>
                <dt><img src="images/s3.jpg" width="200" height="123" alt=""></dt>
                <dd>
-                 <p class="dd_text_1">最近看群里聊天聊得最火热的莫过于手机网站和html5这两个词。可能有人会问，这两者有什么关系呢？随着这移动互联
-                 网快速发展的时代，尤其是4G时代已经来临的时刻，加上微软对"XP系统"不提供更新补丁、维护的情况下。
-               html5+css3也逐渐的成为新一代web前端技术.....</p>
+                 <p class="dd_text_1">（1）  客户端（Client）向Action发用一个请求（Request）
+									（2）  Container通过web.xml映射请求，并获得控制器（Controller）的名字
+									（3）  容器（Container）调用控制器（StrutsPrepareAndExecuteFilter或FilterDispatcher）。在Struts2.1以前调用FilterDispatcher，Struts2.1以后调用StrutsPrepareAndExecuteFilter
+									（4）  控制器（Controller）通过ActionMapper获得Action的信息
+									（5）  控制器（Controller）调用ActionProxy
+									（6）  ActionProxy读取struts.xml文件获取action和interceptor stack的信息。
+									（7）  ActionProxy把request请求传递给ActionInvocation
+									（8）  ActionInvocation依次调用action和interceptor
+									（9）  根据action的配置信息，产生result
+									（10） Result信息返回给ActionInvocation
+									（11） 产生一个HttpServletResponse响应
+									（12） 产生的响应行为发送给客服端。</p>
                <p class="dd_text_2">
                <span class="left author">Jack</span><span class="left sj">时间:2014-8-9</span>
                <span class="left fl">分类:<a href="#" title="学无止境">学无止境</a></span><span class="left yd"><a href="#" title="阅读全文">阅读全文</a>
