@@ -88,13 +88,12 @@
            <!--wz end-->
                 <!--wz-->
            <div class="wz">
-            <h3><a href="#" title="浅谈：html5和html的区别">浅谈：html5和html的区别</a></h3>
+            <h3><a href="#" title="浅谈：html5和html的区别">struts2 中 Actionsupport 的作用</a></h3>
              <dl>
                <dt><img src="images/s.jpg" width="200"  height="123" alt=""></dt>
                <dd>
-                 <p class="dd_text_1">最近看群里聊天聊得最火热的莫过于手机网站和html5这两个词。可能有人会问，这两者有什么关系呢？随着这移动互联
-                 网快速发展的时代，尤其是4G时代已经来临的时刻，加上微软对"XP系统"不提供更新补丁、维护的情况下。
-               html5+css3也逐渐的成为新一代web前端技术.....</p>
+                 <p class="dd_text_1">struts2不要求我们自己设计的action类继承任何的struts基类或struts接口，但是我们为了方便实现我们自己的action，大多数情况下都会继承com.opensymphony.xwork2.ActionSupport类，并重写此类里的public String execute() throws Exception方法。因为此类中实现了很多的实用借口，提供了很多默认方法，这些默认方法包括国际化信息的方法、默认的处理用户请求的方法等，这样可以大大的简化Acion的开发。 
+                 Struts2中通常直接使用Action来封装HTTP请求参数，因此，Action类里还应该包含与请求参数对应的属性，并且为属性提供对应的getter和setter方法。 </p>
                <p class="dd_text_2">
                <span class="left author">Jack</span><span class="left sj">时间:2014-8-9</span>
                <span class="left fl">分类:<a href="#" title="学无止境">学无止境</a></span><span class="left yd"><a href="#" title="阅读全文">阅读全文</a>
