@@ -54,8 +54,8 @@ text-align:center;padddding:2px 5px;border:1px solid #AC9696;border-radius:2px;}
 #c_right .s_about h2{width:230px;margin:0 auto;font-size:16px;color:#333;padding:10px 0px 3px 10px;border-bottom:1px solid #555;}
 #c_right .s_about img{margin:0 auto;margin-top:10px;}
 #c_right .s_about p{padding-left:30px;}
-#c_right .s_about p .b_1{display:block;width:93px;height:30px; background:url("../images/qq_bg.png") no-repeat;}
-#c_right .s_about p .b_2{margin-left:20px;display:block;width:97px;height:25px; background:url("../images/qq_bg.png") -93px 0 no-repeat;}
+#c_right .s_about p .b_1{display:block;width:93px;height:30px;}
+#c_right .s_about p .b_2{margin-left:20px;display:block;width:97px;height:25px;}
 /*随机、最新文章*/
 #c_right .lanmubox{width:260px;height:180px;border:1px solid #ccc;margin-top:5px;background:#fff;}
 .lanmubox .hd{width:260px;height:30px;border-bottom:1px solid #ddd;}
